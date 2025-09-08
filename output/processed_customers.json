@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "total_customers": 12,
+    "export_timestamp": "2025-09-08 10:55:09.165004",
+    "data_quality_summary": {
+      "high_quality": 12,
+      "medium_quality": 0,
+      "low_quality": 0
+    }
+  },
+  "customers": [
+    {
+      "customer_id": 10,
+      "full_name": "Byron Fields",
+      "email_domain": "reqres.in",
+      "engagement_level": "low",
+      "activity_status": "active",
+      "acquisition_channel": "website",
+      "market_segment": "EU-Central",
+      "customer_tier": "premium",
+      "data_quality_score": 100
+    },
+    {
+      "customer_id": 5,
+      "full_name": "Charles Morris",
+      "email_domain": "reqres.in",
+      "engagement_level": "high",
+      "activity_status": "active",
+      "acquisition_channel": "website",
+      "market_segment": "US-East",
+      "customer_tier": "basic",
+      "data_quality_score": 100
+    },
+    {
+      "customer_id": 3,
+      "full_name": "Emma Wong",
+      "email_domain": "reqres.in",
+      "engagement_level": "medium",
+      "activity_status": "active",
+      "acquisition_channel": "website",
+      "market_segment": "US-East",
+      "customer_tier": "basic",
+      "data_quality_score": 100
+    },
+    {
+      "customer_id": 4,
+      "full_name": "Eve Holt",
+      "email_domain": "reqres.in",
+      "engagement_level": "low",
+      "activity_status": "active",
+      "acquisition_channel": "website",
+      "market_segment": "US-East",
+      "customer_tier": "basic",
+      "data_quality_score": 100
+    },
+    {
+      "customer_id": 1,
+      "full_name": "George Bluth",
+      "email_domain": "reqres.in",
+      "engagement_level": "high",
+      "activity_status": "active",
+      "acquisition_channel": "mobile_app",
+      "market_segment": "US-East",
+      "customer_tier": "basic",
+      "data_quality_score": 100
+    },
+    {
+      "customer_id": 11,
+      "full_name": "George Edwards",
+      "email_domain": "reqres.in",
+      "engagement_level": "medium",
+      "activity_status": "active",
+      "acquisition_channel": "mobile_app",
+      "market_segment": "US-East",
+      "customer_tier": "basic",
+      "data_quality_score": 100
+    },
+    {
+      "customer_id": 2,
+      "full_name": "Janet Weaver",
+      "email_domain": "reqres.in",
+      "engagement_level": "high",
+      "activity_status": "active",
+      "acquisition_channel": "website",
+      "market_segment": "EU-Central",
+      "customer_tier": "basic",
+      "data_quality_score": 100
+    },
+    {
+      "customer_id": 8,
+      "full_name": "Lindsay Ferguson",
+      "email_domain": "reqres.in",
+      "engagement_level": "medium",
+      "activity_status": "active",
+      "acquisition_channel": "website",
+      "market_segment": "EU-Central",
+      "customer_tier": "premium",
+      "data_quality_score": 100
+    },
+    {
+      "customer_id": 7,
+      "full_name": "Michael Lawson",
+      "email_domain": "reqres.in",
+      "engagement_level": "low",
+      "activity_status": "active",
+      "acquisition_channel": "website",
+      "market_segment": "EU-Central",
+      "customer_tier": "premium",
+      "data_quality_score": 100
+    },
+    {
+      "customer_id": 12,
+      "full_name": "Rachel Howell",
+      "email_domain": "reqres.in",
+      "engagement_level": "medium",
+      "activity_status": "active",
+      "acquisition_channel": "email_campaign",
+      "market_segment": "EU-Central",
+      "customer_tier": "basic",
+      "data_quality_score": 100
+    },
+    {
+      "customer_id": 9,
+      "full_name": "Tobias Funke",
+      "email_domain": "reqres.in",
+      "engagement_level": "low",
+      "activity_status": "inactive",
+      "acquisition_channel": "email_campaign",
+      "market_segment": "US-East",
+      "customer_tier": "basic",
+      "data_quality_score": 100
+    },
+    {
+      "customer_id": 6,
+      "full_name": "Tracey Ramos",
+      "email_domain": "reqres.in",
+      "engagement_level": "medium",
+      "activity_status": "active",
+      "acquisition_channel": "website",
+      "market_segment": "US-East",
+      "customer_tier": "basic",
+      "data_quality_score": 100
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "total_customers": 12,
+  "data_quality_summary": {
+    "high_quality": 12,
+    "medium_quality": 0,
+    "low_quality": 0
+  },
+  "engagement_distribution": {
+    "high": 3,
+    "medium": 5,
+    "low": 4
+  },
+  "activity_distribution": {
+    "active": 11,
+    "inactive": 1
+  },
+  "channel_distribution": {
+    "mobile_app": 2,
+    "website": 8,
+    "email_campaign": 2
+  },
+  "segment_distribution": {
+    "US-East": 7,
+    "EU-Central": 5
+  },
+  "tier_distribution": {
+    "basic": 9,
+    "premium": 3
+  },
+  "average_quality_score": 100.0
+}

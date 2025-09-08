@@ -1,0 +1,36 @@
+2025-09-08 15:55:06,509 - __main__ - INFO - === Starting Customer Data Pipeline ===
+2025-09-08 15:55:06,509 - __main__ - INFO - Initializing pipeline components...
+2025-09-08 15:55:06,509 - __main__ - INFO - Step 1: Fetching customer data from API...
+2025-09-08 15:55:06,509 - src.api_client - INFO - Starting to fetch all customers...
+2025-09-08 15:55:06,509 - src.api_client - INFO - Fetching page 1...
+2025-09-08 15:55:07,728 - src.api_client - INFO - Successfully fetched page 1 on attempt 1
+2025-09-08 15:55:07,728 - src.api_client - INFO - Total pages to fetch: 2
+2025-09-08 15:55:07,728 - src.api_client - INFO - Successfully fetched page 1 with 6 customers
+2025-09-08 15:55:07,836 - src.api_client - INFO - Fetching page 2...
+2025-09-08 15:55:07,836 - src.api_client - WARNING - Simulated 503 error on attempt 1
+2025-09-08 15:55:07,836 - src.api_client - WARNING - Server error on page 2, attempt 1. Waiting 1s
+2025-09-08 15:55:09,056 - src.api_client - INFO - Successfully fetched page 2 on attempt 2
+2025-09-08 15:55:09,056 - src.api_client - INFO - Successfully fetched page 2 with 6 customers
+2025-09-08 15:55:09,165 - src.api_client - INFO - Fetched 12 unique customers from 2 pages
+2025-09-08 15:55:09,165 - __main__ - INFO - Fetched 12 raw customers
+2025-09-08 15:55:09,165 - __main__ - INFO - Step 2: Processing and transforming customer data...
+2025-09-08 15:55:09,165 - src.data_processor - INFO - Processing 12 customers...
+2025-09-08 15:55:09,165 - src.data_processor - INFO - Successfully processed 12 unique customers
+2025-09-08 15:55:09,165 - __main__ - INFO - Processed 12 customers
+2025-09-08 15:55:09,165 - __main__ - INFO - Step 3: Generating summary report...
+2025-09-08 15:55:09,165 - src.exporter - INFO - Generated summary report for 12 customers
+2025-09-08 15:55:09,165 - __main__ - INFO - === PIPELINE SUMMARY ===
+2025-09-08 15:55:09,165 - __main__ - INFO - Total customers processed: 12
+2025-09-08 15:55:09,165 - __main__ - INFO - Average quality score: 100.0
+2025-09-08 15:55:09,165 - __main__ - INFO - Data quality distribution: {'high_quality': 12, 'medium_quality': 0, 'low_quality': 0}
+2025-09-08 15:55:09,165 - __main__ - INFO - Engagement levels: {<EngagementLevel.HIGH: 'high'>: 3, <EngagementLevel.MEDIUM: 'medium'>: 5, <EngagementLevel.LOW: 'low'>: 4}
+2025-09-08 15:55:09,165 - __main__ - INFO - Activity status: {<ActivityStatus.ACTIVE: 'active'>: 11, <ActivityStatus.INACTIVE: 'inactive'>: 1}
+2025-09-08 15:55:09,165 - __main__ - INFO - Step 4: Exporting processed data...
+2025-09-08 15:55:09,172 - src.exporter - INFO - Successfully exported 12 customers to output\processed_customers.json
+2025-09-08 15:55:09,172 - src.exporter - INFO - Generated summary report for 12 customers
+2025-09-08 15:55:09,174 - src.exporter - INFO - Summary report saved to output\summary_report.json
+2025-09-08 15:55:09,176 - __main__ - INFO - === Pipeline completed successfully! ===
+2025-09-08 15:55:09,177 - __main__ - INFO - Output files:
+2025-09-08 15:55:09,177 - __main__ - INFO -   - Customer data: output\processed_customers.json
+2025-09-08 15:55:09,178 - __main__ - INFO -   - Summary report: output\summary_report.json
+2025-09-08 15:55:09,178 - __main__ - INFO -   - Pipeline log: pipeline.log
