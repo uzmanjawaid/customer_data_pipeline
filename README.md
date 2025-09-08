@@ -2,7 +2,7 @@
 
 A robust e-commerce analytics data pipeline that fetches, processes, and standardizes customer data from third-party APIs with comprehensive error handling and data quality management.
 
-## íº€ Features
+## ï¿½ï¿½ï¿½ Features
 
 - **Robust API Client**: Handles pagination, retries, rate limiting, and network failures
 - **Data Processing**: Transforms raw API data into analytics-ready format with business logic
@@ -11,7 +11,7 @@ A robust e-commerce analytics data pipeline that fetches, processes, and standar
 - **Production Ready**: Comprehensive logging, error handling, and test coverage
 - **Type Safety**: Full Pydantic model validation and type hints
 
-## í³ Project Structure
+## ï¿½ï¿½ï¿½ Project Structure
 
 ```
 customer_data_pipeline/
@@ -51,7 +51,7 @@ customer_data_pipeline/
    pip install -r requirements.txt
    ```
 
-## íº€ Usage
+## ï¿½ï¿½ï¿½ Usage
 
 ### Running the Complete Pipeline
 
@@ -105,7 +105,7 @@ The pipeline generates the following files:
 }
 ```
 
-## í·ª Testing
+## ï¿½ï¿½ï¿½ Testing
 
 Run the comprehensive test suite:
 
@@ -123,7 +123,7 @@ pip install pytest-cov
 pytest tests/ --cov=src --cov-report=html
 ```
 
-## í¿—ï¸ Architecture
+## ï¿½ï¿½ï¿½ï¸ Architecture
 
 ### Components
 
@@ -164,7 +164,7 @@ pytest tests/ --cov=src --cov-report=html
 - **Email Validation**: Additional validation for email format
 - **Duplicate Handling**: Keep highest quality score
 
-## í´§ Configuration
+## ï¿½ï¿½ï¿½ Configuration
 
 Key configuration options in `src/main.py`:
 
@@ -180,7 +180,7 @@ max_retries = 3
 seed = 42
 ```
 
-## í³Š Business Logic
+## ï¿½ï¿½ï¿½ Business Logic
 
 ### Generated Fields
 
@@ -199,7 +199,7 @@ The pipeline enriches raw customer data with business intelligence:
 - **Data Quality Score**: Calculated based on field completeness
 - **Deduplication**: Based on customer ID with quality preference
 
-## íº¦ API Simulation
+## ï¿½ï¿½ï¿½ API Simulation
 
 The pipeline simulates real-world API challenges:
 
@@ -208,7 +208,7 @@ The pipeline simulates real-world API challenges:
 - **Network Delays**: Realistic response times
 - **Pagination**: Multi-page data retrieval
 
-## í³ˆ Monitoring & Observability
+## ï¿½ï¿½ï¿½ Monitoring & Observability
 
 ### Logging
 
@@ -227,7 +227,7 @@ Comprehensive logging includes:
 - Data quality distributions
 - Processing times per stage
 
-## í´ Troubleshooting
+## ï¿½ï¿½ï¿½ Troubleshooting
 
 ### Common Issues
 
@@ -244,7 +244,7 @@ Enable debug logging by modifying the log level:
 logging.basicConfig(level=logging.DEBUG)
 ```
 
-## íº€ Advanced Features (Future Enhancements)
+## ï¿½ï¿½ï¿½ Advanced Features (Future Enhancements)
 
 ### Planned Improvements
 
@@ -261,7 +261,7 @@ logging.basicConfig(level=logging.DEBUG)
 - Optimize memory usage for batch processing
 - Add database storage options
 
-## í³‹ Requirements
+## ï¿½ï¿½ï¿½ Requirements
 
 - Python 3.8+
 - Internet connection (for API access)
@@ -274,7 +274,7 @@ logging.basicConfig(level=logging.DEBUG)
 - `pytest>=7.4.0`: Testing framework
 - `pytest-mock>=3.11.0`: Mocking for tests
 
-## í´ Contributing
+## ï¿½ï¿½ï¿½ Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/new-feature`)
@@ -282,11 +282,11 @@ logging.basicConfig(level=logging.DEBUG)
 4. Run the test suite (`pytest tests/`)
 5. Submit a pull request
 
-## í³„ License
+## ï¿½ï¿½ï¿½ License
 
-This project is provided as-is for educational and demonstration purposes.
+This project is for demonstration purposes.
 
-## í³ Support
+## ï¿½ï¿½ï¿½ Support
 
 For questions or issues:
 1. Check the logs in `pipeline.log`
